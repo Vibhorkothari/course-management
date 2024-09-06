@@ -1,0 +1,38 @@
+/* src/index.css or src/components/SearchBar.css */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+/* src/components/CourseList.css */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.course-item {
+  flex: 1 1 calc(33% - 1rem);
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .course-item {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .course-item {
+    flex: 1 1 100%;
+  }
+}
+
+
