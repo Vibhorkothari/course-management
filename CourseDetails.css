@@ -1,0 +1,62 @@
+/* src/components/CourseDetails.css */
+
+.course-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .course-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .course-details h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .course-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .course-details li {
+    margin-bottom: 10px;
+  }
+  
+  .course-details strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .course-details .expandable-content {
+    display: none;
+  }
+  
+  .course-details .expandable-content.show {
+    display: block;
+  }
+  
+  .course-details .toggle-button {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  

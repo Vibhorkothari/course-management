@@ -1,0 +1,76 @@
+/* src/components/EnrolledCourseCard.css */
+
+.enrolled-course-card {
+    max-width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .enrolled-course-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .enrolled-course-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .enrolled-course-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .enrolled-course-card .due-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .enrolled-course-card .progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    height: 10px;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .enrolled-course-card .progress-bar .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  .enrolled-course-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enrolled-course-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .enrolled-course-card button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
